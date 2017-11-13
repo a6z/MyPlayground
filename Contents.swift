@@ -192,3 +192,10 @@ var num = Int("33")
 if let num = num {
     print(num)
 }
+
+var price = Int("130")
+var percent = Int("30")
+if let price = price, let percent = percent {
+    let tip = price * percent / 100
+    print(tip)
+}
